@@ -3224,7 +3224,7 @@ process ControlFREEC {
     // This parameter makes Control-FREEC unstable (still in Beta according to the developers)
     // so we disable it by setting it to its default value (it is disabled by default)
     //min_subclone = params.target_bed ? "30" : "20"
-    min_subclone = 100
+    min_subclone = 30
     readCountThreshold = params.target_bed ? "50" : "10"
     breakPointThreshold = params.target_bed ? "1.2" : "0.8"
     breakPointType = params.target_bed ? "4" : "2"
